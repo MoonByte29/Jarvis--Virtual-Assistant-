@@ -16,6 +16,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  color: #fff;
 }
 
 .main .image-container{
@@ -30,3 +31,42 @@
   height: 350px;
   position: relative;
 }
+h1{
+  font-size: 2rem;
+  color:#71c5c2;
+  text-align: center;
+}
+p{
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 20px 0;
+  color: rgb(68, 71, 72);
+}
+.input{
+  padding: 3px 50px;
+  background-color: #3f5051;
+  display: flex;
+  justify-content: center;
+  gap:15px;
+  align-items: center;
+  border: 2px solid transparent;
+  border-radius: 20px;
+  width:500px;
+  cursor: pointer;
+  h1{
+    font-size: 18px;
+    color: #8ba0a2;
+  }
+  .talk{
+    padding: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+
+    i{
+      font-size: 1.5rem;
+      color: #8ba0a2;
+    }
+  }
+}
+
